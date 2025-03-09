@@ -15,14 +15,14 @@ This is an open-source Reddit Clone currently in development. The goal of this p
 
 ## Tech Stack
 - **Frontend:** React, and Redux
-- **Reddit API** [Link text](https://www.reddit.com/dev/api/)
+- **Reddit API** [Link](https://www.reddit.com/dev/api/)
 
 ## Installation
 To set up the project locally, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/reddit-clone.git
+git clone https://github.com/baoOyster/reddit-clone.git
 
 # Navigate to the project folder
 cd reddit-clone

@@ -1,0 +1,94 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-right: 1%;
+  padding-left: 1%;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+/* Left Bar */
+.leftHeader {
+  height: 35px;
+}
+
+/* Search Bar */
+.searchBar {
+  display: flex;
+  align-items: center;
+  background-color: hsl(0, 0%, 93%);
+  height: 80%;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+.searchBar > img {
+  height: 15px;
+}
+
+.searchBar > input {
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  width: 300px;
+  background-color: hsl(0, 0%, 93%);
+}
+
+.searchBar:hover,
+.searchBar:hover > input {
+  background-color: hsl(0, 0%, 90%);
+}
+
+/* right Header */
+.rightHeader {
+  display: flex;
+  align-items: center;
+}
+
+.rightHeader .header-btn {
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.header-btn:hover {
+  background-color: hsl(0, 0%, 90%);
+}
+
+.rightHeader img {
+  height: 20px;
+
+}
+
+.create-post {
+  display: flex;
+  align-items: center;
+}
+
+.create-post img {
+  margin-right: 5px;
+}
+
+.create-post {
+    display: flex;
+}
+
+.account-avatar {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.account-avatar img {
+    height: 30px;
+  
+}
+
+.account-avatar:hover {
+    background-color: hsl(0, 0%, 90%);
+}
